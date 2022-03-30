@@ -8,5 +8,5 @@ def student_webpage():
     #Crear una variable
     name = 'John'
     # Pasar la variable en la plantilla
-    return render_template('Actividad_Alumno2.html', student_name = name)
+    return render_template('Student_Activity2.html', student_name = name)
 app.run(debug=True)
