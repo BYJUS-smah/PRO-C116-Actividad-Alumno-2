@@ -1,1 +1,1 @@
-# PRO-C116-Student-Activity-2
+# PRO-C116-Actividad-Alumno-2

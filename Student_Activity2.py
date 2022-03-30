@@ -1,12 +1,12 @@
 from flask import Flask, render_template
 app = Flask(__name__)
 
-#in the function return render_template(‘index.html’)
+#En la función return render_template(‘index.html’)
 
-@app.route("/Student_Activity2")
+@app.route("/Actividad_Alumno2")
 def student_webpage():
-    #Create a variable
+    #Crear una variable
     name = 'John'
-    # Pass the variable in the template
-    return render_template('Student_Activity2.html', student_name = name)
+    # Pasar la variable en la plantilla
+    return render_template('Actividad_Alumno2.html', student_name = name)
 app.run(debug=True)
